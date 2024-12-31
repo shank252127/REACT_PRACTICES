@@ -1,0 +1,12 @@
+1.Here type of script should be module , coz we are not using CDN link now, we are
+creating a module, a app;
+example : <script type="module" src="./demo.js"></script>
+
+2.import ReactDOM from "react-dom/client";
+reactDOM should be imported from the  "react-dom/client" not  "react-dom"
+
+3.browsers list is added in app for what browser our app should support, 
+it is added in package.json;
+website - https://browserslist.dev/
+example how to use in package.json :
+ "browserslist": ["last 2 versions", "> 1%", "not dead"] 
