@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Episode One</title>
+    <link rel="stylesheet" href="./demo.css">
+</head>
+
+<body>
+    <!-- It will not be removed -->
+    <div>hello I am outside the root element</div>
+
+    <!-- If you create a html element here in html file, it will be replaced by root.render 
+     so dont write it here , as we are rendering the element with id root so only the content of 
+     root will be removed-->
+    <div id="root"></div>
+
+    <!-- The import of react should be before logic file -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src="./demo.js"> </script>
+</body>
+
+</html>
