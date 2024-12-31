@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.13.3"
+  },
+  "dependencies": {
+    "react-dom": "^19.0.0"
   }
 }

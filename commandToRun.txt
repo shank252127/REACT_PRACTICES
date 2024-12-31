@@ -1,0 +1,5 @@
+1.npm init
+2.npm i -D parcel
+3.npx parcel demo.html - this will build app locally; 
+4.npx is used for excuting a package where npm is used for installation;
+5.npm install react-dom -  installing react instead of using script/CDN;
